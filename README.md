@@ -13,18 +13,43 @@ This is my Development mac setup
 }
 
 
+## Basics:
+
+### HomeBrew
+
+Copy this insto your terminal:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Iterm 2
+Through Homebrew:
+```
+brew install --cask iterm2
+```
+Through website:
+
+Just Go onto the iterm 2 website and click download
+
 ## IDE's
 
 ### VS CODE
-I use vs code as my main IDE just becuase its the standard I do customise it with plugins
-- Prettier - Nice Code formatting
-- Live Server - Use it for running HTML Websites while coding
-- Gruvbox theme - Personally I use gruvbox dark-soft
-- Docker Extension Pack - For when creating docker images
 
-How to Install
+Through HomeBrew:
+```
+brew install --cask visual-studio-code
+```
+
+Through Website:
+just go onto vs code website
+
+### Zed
 
 Through Homebrew:
-
-
+```
+brew install --cask zed
+```
+Through Website:
+self explanitary
 
